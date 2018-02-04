@@ -33,6 +33,7 @@ def splitDataSet(dataSet, axis, value):
             retDataSet.append(reducedFeatVec)  
     return retDataSet  
 
+#ID3算法决策树
 #根据信息增益进行数据划分
 def chooseBestFeatureToSplit(dataSet):  
     #特征数量

@@ -64,7 +64,7 @@ def chooseBestFeatureToSplit(dataSet):
 
 #创建样本数据集  
 def createDataSet():  
-    dataSet = [[1, 1, 'yes'], [1, 1, 'yes'], [1, 0, 'no'], [0, 1, 'no'], [0, 1, 'no']]  
+    dataSet = [[0, 0, 'yes'], [0, 0, 'yes'], [1, 0, 'no'], [1, 0, 'no'], [1, 0, 'no']]  
     return dataSet  
 
 data = createDataSet()
