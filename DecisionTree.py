@@ -3,8 +3,6 @@
 from math import log
 import operator  
 
-######################majorityCnt不一定正确############################
-
 #计算给定数据集的香农熵 
 def calcShannonEnt(dataSet):  
     numEntries = len(dataSet)  
