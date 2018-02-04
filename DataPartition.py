@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-  
+#!/usr/bin/env python
+# -*- coding: utf-8 
 
 #根据dataSet元素的第axis个特征是否等于value进行划分
 def splitDataSet(dataSet, axis, value):  
@@ -22,11 +23,8 @@ split01 = splitDataSet(data,0,1)
 split00 = splitDataSet(data,0,0)
 split02 = splitDataSet(data,0,2)
 
-print('split01:')
-print(split01)
-print('split00:')
-print(split00)
-print('split02:')
-print(split02)
+print('split01:',split01)
+print('split00:',split00)
+print('split02:',split02)
 
 
