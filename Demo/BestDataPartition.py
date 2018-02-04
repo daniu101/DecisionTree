@@ -71,7 +71,6 @@ data = createDataSet()
 
 split = chooseBestFeatureToSplit(data)
 
-print('split:')
-print(split)
+print('split:',split)
 
 
