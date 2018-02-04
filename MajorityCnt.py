@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-  
+#!/usr/bin/env python
+# -*- coding: utf-8  
 
 import operator   
 
@@ -14,7 +15,7 @@ def majorityCnt(classList):
 
 #创建样本数据集  
 def createDataSet():  
-    dataSet = [[1, 1, 'yes'], [1, 1, 'yes'], [1, 0, 'no'], [0, 1, 'no'], [0, 1, 'no']]  
+    dataSet = [[1, 1, 'no'], [1, 1, 'no'], [1, 0, 'yes'], [0, 1, 'yes'], [0, 1, 'yes']]  
     return dataSet  
 
 data = createDataSet()
@@ -23,9 +24,7 @@ classList = [example[-1] for example in data]
 
 mCnt = majorityCnt(classList)
 
-print('classList:')
-print(classList)
-print('majorityCnt:')
-print(mCnt)
+print('classList:',classList)
+print('majorityCnt:',mCnt)
 
 
